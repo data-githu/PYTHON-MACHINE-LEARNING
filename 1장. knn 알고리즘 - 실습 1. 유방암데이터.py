@@ -12,7 +12,7 @@ import seaborn as sns # 시각화
 
 df = pd.read_csv("c:\\data\\wisc_bc_data.csv") # StringAsFactor = T 부분 없음
 
-# 1. DataFrame 확인
+# 1. DataFrame
 print(df.shape) # 569행 32열
 print(df.info()) # R의 str(df)와 동일 (데이터의 구조확인)
 print(df.describe()) # R의 summary(df)와 동일 (요약 통계정보)
@@ -303,4 +303,4 @@ print(report)
 # 정확도 확인하는 코드 
 from sklearn.metrics import accuracy_score
 accuracy = accuracy_score( y_test, y_pred)
-print(accuracy) # 0.9824
+print(accuracy) # 0.982
