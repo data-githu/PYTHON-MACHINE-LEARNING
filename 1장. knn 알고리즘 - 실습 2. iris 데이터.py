@@ -8,7 +8,7 @@ Created on Thu Feb 25 23:39:43 2021
 
 ■ 1장. knn 알고리즘 - 실습 2. iris 데이터
 
-문제5. iris 데이터를 knn으로 분류하시오.
+문제5. iris 데이터를 knn으로 분류하시오
 import matplotlib.pyplot as plt
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
