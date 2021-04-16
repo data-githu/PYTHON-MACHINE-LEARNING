@@ -26,7 +26,7 @@ y = df['diagnosis'].to_numpy()
 print(y)
 
 
-# 2. 데이터 정규화를 수행한다.              
+# 2. 데이터 정규화를 수행한다     
 from sklearn import preprocessing 
 X=preprocessing.StandardScaler().fit(X).transform(X)
 print(X)
