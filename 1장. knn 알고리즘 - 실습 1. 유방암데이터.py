@@ -32,7 +32,7 @@ X=preprocessing.StandardScaler().fit(X).transform(X)
 print(X)
 
   
-# 3. 훈련 데이터 70, 테스트 데이터 30으로 나눈다. 
+# 3. 훈련 데이터 70, 테스트 데이터 30으로 나눈다 
 from sklearn.model_selection import train_test_split 
 X_train, X_test, y_train, y_test = train_test_split(X,y,test_size =0.3, random_state = 10)
 # random_state = 10 은 seed 값을 설정하는 부분 (동일한 정확도를 보기 위해서)
