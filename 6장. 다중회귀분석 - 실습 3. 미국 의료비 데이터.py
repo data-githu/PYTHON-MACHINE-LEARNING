@@ -6,7 +6,7 @@ Created on Fri Mar 19 23:11:55 2021
 """
 
 # ■ 6장. 다중회귀분석 - 실습 3. 미국 의료비 데이터
-문제21. 미국 의료비 데이터를 가지고 다중 회귀분석을 진행하시오.
+문제21. 미국 의료비 데이터를 가지고 다중 회귀분석을 진행하시오
 import numpy as np
 import statsmodels.api as sm # 회귀분석을 위해서
 import statsmodels.formula.api as smf # 회귀분석을 위해서
