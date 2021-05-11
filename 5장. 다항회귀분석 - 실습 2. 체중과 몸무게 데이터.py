@@ -127,7 +127,7 @@ plt.ylabel('mpg')
 plt.show()
 plt.close()
 
-# 모형에 전체 X 데이터를 입력하여 예측한 값 y_hat을 실제 값 y와 비교 
+# 모형에 전체 X 데이터를 입력하여 예측한 값 y_hat을 실제 값 y와 비교하기
 X_ploy = poly.fit_transform(X)
 y_hat = pr.predict(X_ploy)
 
